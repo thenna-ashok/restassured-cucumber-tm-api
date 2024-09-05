@@ -8,9 +8,9 @@ import org.apache.log4j.Logger;
 /**
  * This class helps to log the test case details when the execution is finished
  */
-public class MyTestListener implements ConcurrentEventListener {
+public class TestListener implements ConcurrentEventListener {
 
-    private static final Logger LOG = LogManager.getLogger(MyTestListener.class);
+    private static final Logger LOG = LogManager.getLogger(TestListener.class);
 
     @Override
     public void setEventPublisher(EventPublisher publisher) {
