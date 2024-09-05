@@ -8,6 +8,9 @@ import io.restassured.specification.FilterableResponseSpecification;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
+/**
+ * This class helps to log the req, response under test
+ */
 public class RestAssuredRequestFilter implements Filter {
 	private static final Logger LOG = LogManager.getLogger(RestAssuredRequestFilter.class);
 

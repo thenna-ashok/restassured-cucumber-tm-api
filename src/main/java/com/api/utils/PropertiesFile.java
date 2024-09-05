@@ -15,6 +15,11 @@ public class PropertiesFile {
 	private static FileInputStream fileInputStream;
 	private static Properties prop = null;
 
+	/**
+	 * This class helps to load all the property files used in this project before the test trigger
+	 * @param property
+	 * @return
+	 */
 	public static String getProperty(String property) {		
 
 		try {

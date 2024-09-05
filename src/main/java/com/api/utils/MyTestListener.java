@@ -5,6 +5,9 @@ import io.cucumber.plugin.event.*;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
+/**
+ * This class helps to log the test case details when the execution is finished
+ */
 public class MyTestListener implements ConcurrentEventListener {
 
     private static final Logger LOG = LogManager.getLogger(MyTestListener.class);
